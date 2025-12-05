@@ -7,4 +7,5 @@ It was decided to use this chassis for 3D printing instead of modifying a model 
 - Mobility Management
 - Power and Sensory Management
 - Obstacle Management
+
 The first point refers to how the robot had to perform its most basic functions, namely forward and backward movement. For this, a 21T 540 brushed motor was chosen, as this motor has sufficient torque to rotate a gear system located at the rear of the robot. This system is connected to an axle shared by the two rear wheels, allowing the robot to move forward and backward thanks to the rear-wheel drive provided by the motor. To ensure proper operation of the traction motor, a BTS7960 H-bridge was implemented to control the motor's direction. This was necessary because the brushed motor requires a high current, making it difficult to use with other, more sensitive H-bridges, such as the well-known L298N.
